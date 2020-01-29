@@ -58,8 +58,8 @@ end
 def add_s(array)
   array.each_with_index.collect do |element, index|
     if index == 1
-    element = "feet"
+    element
   else 
-    array << "s"
+    element + "s"
   end
 end
